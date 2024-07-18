@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+}
+.background img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.3;
+}
+header{
+    background-color:transparent;
+    position: relative
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info img{
+    width: 70px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.info button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+}
+
+.secmain{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 80px;
+    justify-content: center;
+
+}
+.disney{
+    vertical-align: middle;
+    text-align: center;
+    margin: 20px;
+}
+.disney h4 {
+    font-size: 20px;
+    color: white;
+}
+.disney h6{
+    color: rgb(112, 207, 137);
+    font-weight: bold;
+}
+.disney button{
+    background-color: rgb(112, 207, 137);
+    height: 30px;
+    width: 350px;
+    color: #000;
+    border: none;
+    font-weight: bolder;
+}
+
+.text3{
+    text-align: center;
+    margin: 6px;
+    position: relative;
+    margin-top: 100px;
+}
+.terms{
+    color: white;
+    font-size: 12px;
+}
+.signup{
+    font-size: 18px;
+    color: white;
+    margin: 40px;
+}
+.viewmore{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.text3 img{
+    color: white;
+
+}
+.text3 button{
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 75px;
+    border-color: white;
+    padding: 12px;
+}
+.greend{
+    width: 100%;
+    height: 150px;
+    margin-top: 140px;
+}
+
+.green{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(49, 136, 77);
+    text-align: center;
+    align-items: center;
+    box-shadow: inset -15px -15px 100px -15px rgb(0, 0, 0);
+}
+.green p{
+    color: white;
+    font-size: 16px;
+    padding: 23px;
+}
+.green button{
+    background-color: transparent;
+    padding: 15px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+.black{
+    background-color: rgb(12, 12, 12);
+    height: fit-content;
+    display: grid;
+    grid-template-rows:200px 510px 350px ;
+}
+.toppart{
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.toppart h6{
+    font-size: 13px;
+    color: rgb(40, 159, 96);
+    font-weight: bold;
+    padding-top: 50px;
+}
+.toppart h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 15px;
+}
+.toppart h5{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.imgpart{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tvshow{
+    height: 450px;
+    padding: 10px;
+    width: 100%;
+}
+.tvshow img:hover{
+    opacity: 0.5;
+    border: 4px rgb(229, 229, 229) solid;
+    transition: 0.1s;
+}
+
+.tvshow img{
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.tvshow h5{
+    position: relative;
+    padding-top:15px ;
+    padding-left: 15px;
+    color: white;
+}
+.tvshow h3{
+    position: relative;
+    padding-top:7px ;
+    padding-left: 15px;
+    color: white;
+}
+
+
+.lastpart{
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+}
+.lastpart h5{
+    color: rgb(54, 219, 115);
+    margin-bottom: 10px;
+}
+.lastpart h1{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+.lastpart h4{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.lastpart button{
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(63, 248, 150);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.lastpart p{
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.lastpart div{
+    color: #ffffff;
+}
+
+
+
+.cricket{
+    height: 950px;
+    width: 100%;
+    background-color: rgb(14, 80, 58);
+    color: white;
+}
+.wallpaper{
+    position: absolute;
+    opacity: 0.4;
+    height: 950px;
+    object-fit: cover;
+}
+.boxdiv{
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.headings{
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.cricket h1{
+    font-size:50px ;
+    margin-bottom: 20px;
+}
+.photoz{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.photoz img{
+    width: 40px;
+    background-color: white;
+    padding: 6px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 100px;
+}
+.live{
+    font-size: 12px;
+}
+
+
+.end{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    align-items: center;
+    text-align: center;
+    
+}
+.end p{
+    padding-top: 40px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.end div{
+    font-size: 18px;
+    padding-bottom: 40px;
+}
